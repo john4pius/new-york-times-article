@@ -317,6 +317,27 @@ small {
     margin: 0 auto;
 }
 
+.nyt-art-editors-picks-container {
+    display: block;
+    position: relative;
+    left: 700px;
+    top: 0px;
+    width: 300px;
+}
+
+.nyt-art-appreciate {
+    text-align: center;
+    font-size: 0.9em;
+    font-weight: 1000;
+}
+
+.nyt-art-appreciate>div {
+    border-bottom: 1px solid rgb(204, 204, 204);
+    border-top: 1px solid rgb(204, 204, 204);
+    width: 72px;
+    margin: 18px auto 18px;
+}
+
 .nyt-art-bottom-bar>p {
     font-family: inherit;
     color: rgb(77, 73, 73);
@@ -366,7 +387,8 @@ small {
     padding-left: 5px;
 }
 
-.nyt-art-container-article>div>p {
+.nyt-art-container-article>div>p,
+.section-box>p {
     margin-top: 0;
     margin-left: 0;
     margin-right: 0;
@@ -632,11 +654,11 @@ small {
 }
 
 .nyt-most-popular {
+    display: flexbox;
     flex: 25%;
     border-top: 1px solid rgb(0, 0, 0);
     padding-top: 20px;
     padding-left: 5px;
-    display: block;
     margin-left: 30px;
 }
 
