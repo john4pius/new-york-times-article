@@ -320,15 +320,18 @@ small {
 .nyt-art-editors-picks-container {
     display: block;
     position: relative;
-    left: 700px;
-    top: 0px;
-    width: 300px;
+    left: 1400px;
+    top: -300px;
+    width: 210px;
+    margin-bottom: -240px;
 }
 
 .nyt-art-appreciate {
     text-align: center;
     font-size: 0.9em;
     font-weight: 1000;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .nyt-art-appreciate>div {
@@ -336,6 +339,11 @@ small {
     border-top: 1px solid rgb(204, 204, 204);
     width: 72px;
     margin: 18px auto 18px;
+}
+
+.nyt-art-app-link {
+    text-decoration: none;
+    color: #326891;
 }
 
 .nyt-art-bottom-bar>p {
@@ -680,6 +688,22 @@ iframe {
     flex-wrap: wrap;
 }
 
+.nyt-art-picks-link {
+    text-decoration: none;
+    color: #666;
+    font-size: 0.9rem;
+}
+
+.nyt-art-picks-style {
+    display: flex;
+}
+
+.nyt-art-picks-img {
+    display: inline-block;
+    width: 80px;
+    height: auto;
+}
+
 .nyt-flex {
     width: 273px;
     height: 300px;
@@ -882,8 +906,6 @@ iframe {
     border-top: 1px solid rgb(226, 226, 226);
 }
 
-.nyt-art-bottom-bar-con {}
-
 .nyt-logo {
     width: auto;
     height: 25px;
@@ -932,4 +954,10 @@ iframe {
 
 .nyt-gap {
     margin-left: 5px;
+}
+
+@media screen and (max-width: 400px) {
+    .nyt-art-editors-picks-container {
+        display: none;
+    }
 }
