@@ -443,7 +443,7 @@ table {
 
 .nyt-figure {
   max-width: 60%;
-  margin: 0 auto
+  margin: 0 auto;
 }
 
 .nyt-first-image {
@@ -468,6 +468,10 @@ table {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+}
+
+h3 {
+  text-align: left;
 }
 
 .nyt-art-story h3,
@@ -538,6 +542,21 @@ table {
 
 .nyt-footer-hover:hover {
   text-decoration: underline;
+}
+
+.nyt-popular {
+  font-size: 1.1875rem;
+  line-height: 1.4375rem;
+  color: rgb(18, 18, 18);
+  font-family: "nyt-cheltenham", georgia, "times new roman", times, serif;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.line-design {
+  font-size: 1.1rem;
+  line-height: 22px;
+  font-weight: 500;
 }
 
 .line-design:hover,
@@ -703,10 +722,6 @@ iframe {
   padding-right: 10px;
 }
 
-h3 {
-  text-align: left;
-}
-
 .nyt-flex {
   width: 273px;
   height: 300px;
@@ -745,12 +760,6 @@ h3 {
   color: rgb(18, 18, 18);
 }
 
-.line-design {
-  font-size: 1.1rem;
-  line-height: 22px;
-  font-weight: 500;
-}
-
 .more-in-space-and-astronomy-title {
   text-decoration: none;
   font-weight: 700;
@@ -758,15 +767,6 @@ h3 {
   font-size: 16px;
   color: rgb(0, 0, 0);
   font-family: "nyt-franklin", helvetica, arial, sans-serif;
-}
-
-.nyt-popular {
-  font-size: 1.1875rem;
-  line-height: 1.4375rem;
-  color: rgb(18, 18, 18);
-  font-family: "nyt-cheltenham", georgia, "times new roman", times, serif;
-  font-weight: 500;
-  text-decoration: none;
 }
 
 .nyt-most-popular > div {
@@ -960,13 +960,13 @@ h3 {
 
 @media screen and (max-width: 990px) {
   .nyt-art-editors-picks-container {
-    display: none
+    display: none;
   }
 
   .hide-flex {
     display: none;
   }
-  
+
   .nyt-art-footer {
     display: flex;
     flex-flow: row nowrap;
