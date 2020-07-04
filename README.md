@@ -11,7 +11,7 @@
 - HTML & CSS
 
 ## Live Demo
-- [Live Demo Link](https://raw.githack.com/john4pius/new-york-times-article/build/index.html)
+- [Live Demo Link](https://raw.githack.com/john4pius/new-york-times-article/master/index.html)
 
 #### Prerequisites
 - Browser
